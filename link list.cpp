@@ -36,6 +36,7 @@ public:
 
         Node *previos = START;
         Node *current = START;
-        
+
+        while ((current != NULL) && (nim >= current->noMhs))
     }
 }
