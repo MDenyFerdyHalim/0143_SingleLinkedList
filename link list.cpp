@@ -57,5 +57,8 @@ public:
         return (START == NULL);
     }
 
-    bool
+    bool Search(int nim,  Node **previous, Node **curent)
+    {
+        
+    }
 };
