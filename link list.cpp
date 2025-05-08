@@ -30,7 +30,8 @@ public:
 
         if (START == NULL || nim <= START->noMhs)
         {
-            
+            if ((START != NULL) && (nim == START->noMhs))
+            return
         }
     }
 }
