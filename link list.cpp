@@ -52,5 +52,10 @@ public:
         previous->next = nodeBaru;
     }
 
-    bool list
+    bool listEmpty()
+    {
+        return (START == NULL);
+    }
+
+    bool
 };
